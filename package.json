@@ -1,6 +1,6 @@
 {
   "name": "@ci7lus/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My sharable eslint config",
   "author": "ci7lus <7887955+ci7lus@users.noreply.github.com>",
   "license": "MIT",

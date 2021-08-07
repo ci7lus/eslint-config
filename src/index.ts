@@ -26,7 +26,7 @@ const config: Linter.BaseConfig = {
     ],
     "@typescript-eslint/no-misused-new": "off",
     "no-empty": "off",
-    "no-console": ["warn", { allow: ["error", "warn", "info"] }],
+    "no-console": ["warn", { allow: ["error", "warn", "info", "debug"] }],
   },
   settings: {
     "import/resolver": { node: { extensions: [".js", ".ts", ".tsx"] } },
