@@ -12,6 +12,7 @@ const config: Linter.BaseConfig = {
     /*"plugin:jest/recommended",*/
     "prettier",
     "plugin:import/errors",
+    //"plugin:react-hooks/recommended", // TODO: 次は
   ],
   rules: {
     "@typescript-eslint/ban-types": "off",
@@ -27,6 +28,7 @@ const config: Linter.BaseConfig = {
     "@typescript-eslint/no-misused-new": "off",
     "no-empty": "off",
     "no-console": ["warn", { allow: ["error", "warn", "info", "debug"] }],
+    // "@typescript-eslint/no-misused-promises": ["error", {}], // TODO: 次は
   },
   settings: {
     "import/resolver": { node: { extensions: [".js", ".ts", ".tsx"] } },
